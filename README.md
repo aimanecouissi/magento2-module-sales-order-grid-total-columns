@@ -2,7 +2,7 @@
 
 [![Latest Stable Version](http://poser.pugx.org/aimanecouissi/module-sales-order-grid-total-columns/v)](https://packagist.org/packages/aimanecouissi/module-sales-order-grid-total-columns) [![Total Downloads](http://poser.pugx.org/aimanecouissi/module-sales-order-grid-total-columns/downloads)](https://packagist.org/packages/aimanecouissi/module-sales-order-grid-total-columns) [![Magento Version Require](https://img.shields.io/badge/magento-2.4.x-E68718)](https://packagist.org/packages/aimanecouissi/module-sales-order-grid-total-columns) [![License](http://poser.pugx.org/aimanecouissi/module-sales-order-grid-total-columns/license)](https://packagist.org/packages/aimanecouissi/module-sales-order-grid-total-columns) [![PHP Version Require](http://poser.pugx.org/aimanecouissi/module-sales-order-grid-total-columns/require/php)](https://packagist.org/packages/aimanecouissi/module-sales-order-grid-total-columns)
 
-Adds additional total columns to the Admin **Sales → Orders** grid (base and purchased currency).
+Adds financial total columns for both base and purchased currency to the **Admin → Sales → Orders** grid.
 
 ## Installation
 ```bash
@@ -13,7 +13,8 @@ bin/magento cache:flush
 ```
 
 ## Usage
-Open **Admin → Sales → Orders**. The module adds total columns—**Paid, Due, Invoiced, Refunded, Canceled**—for both **base** and **purchased** currency. They’re hidden by default; enable them from **Columns**.
+
+Open **Admin → Sales → Orders**. The module adds **Paid**, **Due**, **Invoiced**, **Refunded**, and **Canceled** columns in both base and purchased currency. All added columns are hidden by default and can be enabled from the **Columns** toggle.
 
 ## Uninstall
 ```bash
@@ -24,4 +25,5 @@ bin/magento cache:flush
 ```
 
 ## License
+
 [MIT](LICENSE)
